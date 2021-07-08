@@ -1,13 +1,16 @@
 import React from 'react'
 import {
+    MainContainer,
 
 } from './MainElement'
 
+import ContactForm from './Contactform/ContactForm'
+
 const Main = () => {
     return (
-        <div>
-            
-        </div>
+        <MainContainer>
+            <ContactForm />
+        </MainContainer>
     )
 }
 

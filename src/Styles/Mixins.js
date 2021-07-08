@@ -29,7 +29,7 @@ export const Anchor = () => {
 // Default Styles!!!
 export const NavFooterBckC = () => {
     return `
-        background-color: #002a77;
+        background-color: #00205c;
     `
 }
 export const InputBackground = () => {
