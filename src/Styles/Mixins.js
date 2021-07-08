@@ -16,8 +16,25 @@ export const smallShadow = () => {
     box-shadow: 2px 5px 8px #1a1a1a3a;
     `
 }
+
 export const Anchor = () => {
     return `
     text-decoration: none;
     `
 }
+
+
+
+
+// Default Styles!!!
+export const NavFooterBckC = () => {
+    return `
+        background-color: #002a77;
+    `
+}
+export const InputBackground = () => {
+    return `
+        background-color: #f5f5f5;
+    `
+}
+

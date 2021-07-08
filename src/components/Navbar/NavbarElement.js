@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { FlexCenter,Anchor } from '../../Styles/Mixins'
+import { FlexCenter,Anchor,NavFooterBckC } from '../../Styles/Mixins'
 
 export const NavbarContainer = styled.div`
     width: 100vw;
     height: 5vh;
-    background-color: #002a77;
+    ${NavFooterBckC};
     ${FlexCenter};
 `
 export const NavbarWrapper = styled.div`

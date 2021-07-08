@@ -15,16 +15,16 @@ export const HeroHeading = styled.div`
 `
 export const IntroWord = styled.h1`
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
 `
 export const Introme = styled.h3`
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-bottom: 10px;
 `
 export const IntroText = styled.p`
     text-transform: uppercase;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     letter-spacing: 1.5px;
     padding: 5px;
 `
@@ -37,7 +37,7 @@ export const SecondSpan = styled.span`
 export const ViewBox = styled.div`
     width: 100vw;
     height: 15vh;
-    // background: blue;
+    background: #eeeeee;
     ${FlexCenter}
 `
 export const Viewbtn = styled.button`
